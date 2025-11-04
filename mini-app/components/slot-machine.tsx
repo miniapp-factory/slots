@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Share } from '@/components/share';
 
 const fruits = ['apple', 'banana', 'cherry'];
-const fruitImages = {
+const fruitImages: Record<string, string> = {
   apple: '/apple.png',
   banana: '/banana.png',
   cherry: '/cherry.png',
